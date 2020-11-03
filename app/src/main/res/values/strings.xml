@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Retrofit_API</string>
+    <string name="biz_insights">Biz-Insights</string>
+    <string name="action_login">Login</string>
+    <string name="action_registration">Registration</string>
+    <string name="tv_uname">User Name</string>
+    <string name="hint_uname">Enter User Name</string>
+    <string name="tv_password">Password</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="tv_forgetpassword">Forget Password</string>
+    <string name="tv_dnha">Don\'t Have Account?</string>
+    <string name="btn_register">Register</string>
+    <string name="tv_fname">First Name</string>
+    <string name="tv_lname">Last Name</string>
+    <string name="hint_fname">Enter First Name</string>
+    <string name="hint_lname">Enter Last Name</string>
+    <string name="tv_address">Address</string>
+    <string name="hint_address">Enter Address</string>
+    <string name="tv_email">Email Id</string>
+    <string name="hint_email">Enter Email Id</string>
+    <string name="tv_cpassword">Confirm Password</string>
+    <string name="hint_cpassword">Enter Confirm Password</string>
+    <string name="tv_mobileno">Mobile No</string>
+    <string name="hint_mobileno">Enter Mobile No</string>
+    <string name="tv_dyha">Do You Have Account?</string>
+    <string name="tv_userlist">User List</string>
+    <string name="msg_no_internet_title">Please Check Your Internet Connectivity</string>
+    <string name="msg_no_internet">check internet</string>
+    <string name="msg_goto_settings">Go To Settings</string>
+
+    <string-array name="view">
+        <item> GridView</item>
+        <item> List View</item>
+    </string-array>
 </resources>
