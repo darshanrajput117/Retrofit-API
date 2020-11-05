@@ -27,6 +27,8 @@
     <string name="msg_no_internet_title">Please Check Your Internet Connectivity</string>
     <string name="msg_no_internet">check internet</string>
     <string name="msg_goto_settings">Go To Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
 
     <string-array name="view">
         <item> GridView</item>

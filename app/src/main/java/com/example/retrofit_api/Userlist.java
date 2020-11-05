@@ -109,10 +109,12 @@ public class Userlist extends AppCompatActivity {
     }
 
     private void setLogout() {
-        new AlertDialog.Builder(com.example.retrofit_api.Userlist.this).setTitle("Logout").setMessage("Are Sure Want To Logout?")
-                .setNegativeButton("Cancel", (dialog, which) -> dialog.dismiss()).setPositiveButton("Logout", (dialog, which) -> {
+        AlertDialog.Builder builder = new AlertDialog.Builder(Userlist.this);
+        builder.setTitle("Logout")
+                .setMessage("Are Sure Want To Logout?")
+                .setNegativeButton(R.string.cancel, (dialog, which) -> dialog.dismiss()).setPositiveButton(R.string.logout, (dialog, which) -> {
             globals.setLoginData(null);
-            Intent i = new Intent(com.example.retrofit_api.Userlist.this, MainActivity.class);
+            Intent i = new Intent(Userlist.this, MainActivity.class);
             startActivity(i);
             finish();
         }).show();
